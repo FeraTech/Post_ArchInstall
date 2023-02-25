@@ -55,7 +55,7 @@ sleep 3s
 yay -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
 echo "Installing more apps"
 sleep 3s
-yay -S chezmoi geany geany-plugins transmission-qt simplescreenrecorder obs-studio audacity pdfarranger mintstick bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans pseint-bin staruml zoom
+yay -S chezmoi transmission-qt simplescreenrecorder obs-studio audacity pdfarranger mintstick bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans pseint-bin staruml zoom
 echo "Installing KDE apps"
 sleep 3s
 yay -S spectacle gwenview okular packagekit-qt5 kdenlive krita elisa kdeconnect arc-kde materia-kde adapta-kde
