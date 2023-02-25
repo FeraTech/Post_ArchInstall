@@ -64,5 +64,5 @@ sleep 3s
 yay -S code alacritty man perl-rename retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden
 echo "Installing some themes"
 sleep 3s
-yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme matcha-gtk-theme matcha-kde-git
+yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme matcha-gtk-theme whitesur-gtk-theme whitesur-icon-theme whitesur-kde-theme-git 
 echo "OK! :))"
