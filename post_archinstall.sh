@@ -62,4 +62,7 @@ yay -S spectacle gwenview okular packagekit-qt5 kdenlive krita elisa kdeconnect 
 echo "Installing even more apps"
 sleep 3s
 yay -S code alacritty man perl-rename retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden
+echo "Installing some themes"
+sleep 3s
+yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme
 echo "OK! :))"
