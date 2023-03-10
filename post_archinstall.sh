@@ -7,9 +7,6 @@ sudo pacman -S base-devel linux-headers linux-zen linux-zen-headers
 echo "Installing git and go"
 sleep 3s
 sudo pacman -S git go
-echo "Moving to desktop"
-sleep 2s
-cd ~/Desktop/
 echo "Installing yay"
 sleep 3s
 git clone https://aur.archlinux.org/yay.git
@@ -34,10 +31,11 @@ sleep 3s
 yay -S gtk-engine-murrine gtk-engines arc-gtk-theme arc-icon-theme elementary-icon-theme papirus-icon-theme adapta-gtk-theme materia-gtk-theme
 echo "Installing other tools"
 sleep 3s
-yay -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim xsel wget
+yay -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim xsel wget man perl-rename gufw
+sudo ufw enable
 echo "Installing AUR tools"
 sleep 3s
-yay -S pfetch inxi aic94xx-firmware wd719x-firmware upd72020x-fw r8168 libva-utils
+yay -S pfetch inxi aic94xx-firmware wd719x-firmware upd72020x-fw libva-utils
 echo "Installing multimedia stuff"
 sleep 3s
 yay -S vlc gstreamer gstreamer-vaapi gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly intel-gpu-tools
@@ -55,14 +53,14 @@ sleep 3s
 yay -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
 echo "Installing more apps"
 sleep 3s
-yay -S chezmoi transmission-qt simplescreenrecorder obs-studio audacity pdfarranger mintstick bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans pseint-bin staruml zoom
+yay -S chezmoi transmission-gtk simplescreenrecorder obs-studio audacity pdfarranger mintstick bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans pseint-bin staruml zoom
 echo "Installing KDE apps"
 sleep 3s
 yay -S spectacle gwenview okular packagekit-qt5 kdenlive krita elisa kdeconnect arc-kde materia-kde adapta-kde
 echo "Installing even more apps"
 sleep 3s
-yay -S code alacritty man perl-rename retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden
+yay -S code alacritty retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden
 echo "Installing some themes"
 sleep 3s
-yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme matcha-gtk-theme whitesur-gtk-theme whitesur-icon-theme whitesur-kde-theme-git 
+yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme tela-icon-theme
 echo "OK! :))"
