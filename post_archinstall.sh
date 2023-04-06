@@ -1,3 +1,6 @@
+echo "Uninstalling unnecesary stuff"
+sleep 2s
+sudo pacman -Rnsc vim epiphany
 echo "Updating the system..."
 sleep 3s
 sudo pacman -Syyyu
@@ -17,12 +20,9 @@ rm -rf yay/
 echo "Updating the system... again"
 sleep 3s
 yay
-echo "Uninstalling vim"
-sleep 2s
-yay -Rnsc vim
 echo "Installing basic system tools"
 sleep 3s
-yay -S dialog os-prober mtools dosfstools ntfs-3g xdg-user-dirs xdg-desktop-portal bash-completion rsync reflector gvfs gvfs-mtp
+yay -S dialog mtools dosfstools ntfs-3g xdg-user-dirs xdg-desktop-portal bash-completion rsync reflector gvfs gvfs-mtp
 echo "Installing fonts"
 sleep 3s
 yay -S ttf-dejavu noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-bitstream-vera ttf-liberation ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-jetbrains-mono ttf-inconsolata otf-crimson ttf-carlito ttf-ms-fonts otf-takao
@@ -32,7 +32,7 @@ yay -S gtk-engine-murrine gtk-engines arc-gtk-theme arc-icon-theme elementary-ic
 echo "Installing other tools"
 sleep 3s
 yay -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim xsel wget man perl-rename gufw
-sudo ufw enable
+## sudo ufw enable
 echo "Installing AUR tools"
 sleep 3s
 yay -S pfetch inxi aic94xx-firmware wd719x-firmware upd72020x-fw libva-utils
@@ -41,7 +41,7 @@ sleep 3s
 yay -S vlc gstreamer gstreamer-vaapi gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly intel-gpu-tools
 echo "Installing pipewire and audio stuff"
 sleep 3s
-yay -S pipewire gst-plugin-pipewire pipewire-v4l2 pipewire-x11-bell pipewire-zeroconf realtime-privileges helvum pavucontrol
+yay -S pipewire gst-plugin-pipewire pipewire-v4l2 pipewire-x11-bell pipewire-zeroconf realtime-privileges helvum
 echo "Adding user to the realtime group"
 sleep 3s
 sudo usermod -a -G realtime $USER
@@ -53,13 +53,13 @@ sleep 3s
 yay -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
 echo "Installing more apps"
 sleep 3s
-yay -S chezmoi transmission-gtk simplescreenrecorder obs-studio audacity pdfarranger mintstick bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans pseint-bin staruml zoom
+yay -S chezmoi transmission-gtk simplescreenrecorder obs-studio audacity pdfarranger bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans zoom
 echo "Installing KDE apps"
 sleep 3s
 yay -S spectacle gwenview okular packagekit-qt5 kdenlive krita elisa kdeconnect arc-kde materia-kde adapta-kde
 echo "Installing even more apps"
 sleep 3s
-yay -S code alacritty retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden
+yay -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden
 echo "Installing some themes"
 sleep 3s
 yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme tela-icon-theme
