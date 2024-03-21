@@ -28,11 +28,11 @@ sleep 3s
 yay -S ttf-dejavu noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-bitstream-vera ttf-liberation ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-jetbrains-mono ttf-inconsolata otf-crimson ttf-carlito ttf-ms-fonts otf-takao
 echo "Installing gtk stuff"
 sleep 3s
-## yay -S gtk-engine-murrine gtk-engines arc-gtk-theme papirus-icon-theme materia-gtk-theme
-yay -S gnome-themes-extra papirus-icon-theme
+## yay -S gtk-engine-murrine gtk-engines materia-gtk-theme
+yay -S materia-gtk-theme papirus-icon-theme 
 echo "Installing other tools"
 sleep 3s
-yay -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim xsel wget man perl-rename gufw
+yay -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim wl-clipboard wget man perl-rename gufw
 sudo ufw enable
 echo "Installing AUR tools"
 sleep 3s
@@ -55,13 +55,13 @@ yay -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils
 echo "Installing more apps"
 sleep 3s
 ## yay -S chezmoi transmission-qt obs-studio audacity pdfarranger bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans zoom
-yay -S chezmoi fragments obs-studio audacity bleachbit gimp inkscape minder shotcut clipgrab handbrake netbeans zoom
+yay -S chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut clipgrab handbrake
 echo "Installing KDE apps"
 sleep 3s
 ## yay -S spectacle gwenview okular packagekit-qt5 kdenlive krita elisa kdeconnect arc-kde materia-kde
 echo "Installing even more apps"
 sleep 3s
-yay -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour bitwarden joplin-desktop
+yay -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
 echo "Installing some apps"
 sleep 3s
 yay -S stremio
