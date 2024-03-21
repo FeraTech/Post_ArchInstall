@@ -64,6 +64,5 @@ sleep 3s
 yay -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
 echo "Installing some apps"
 sleep 3s
-yay -S stremio
 ## yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme tela-icon-theme
 echo "OK! :))"
