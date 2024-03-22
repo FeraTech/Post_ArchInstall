@@ -57,4 +57,7 @@ yay -S chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut clipgr
 echo "Installing even more apps"
 sleep 3s
 yay -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
+echo "Installing Sway stuff"
+sleep 3s
+yay -S sway swaybg swayidle swaylock imv wf-recorder wl-clipboard alacritty waybar otf-font-awesome wofi brightnessctl pavucontrol xdg-desktop-portal-wlr nwg-look
 echo "OK! :))"
