@@ -47,7 +47,7 @@ sleep 3s
 sudo usermod -a -G realtime $USER
 echo "Installing some apps"
 sleep 3s
-yay -S thunderbird telegram-desktop obsidian libreoffice-still hunspell hunspell-es_mx onlyoffice-bin
+yay -S thunderbird telegram-desktop obsidian libreoffice-still libreoffice-still-es hunspell hunspell-es_mx onlyoffice-bin
 echo "Installing disk utilities"
 sleep 3s
 yay -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
