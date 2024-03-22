@@ -25,10 +25,9 @@ sleep 3s
 yay -S dialog mtools dosfstools ntfs-3g xdg-user-dirs bash-completion rsync reflector gvfs gvfs-mtp
 echo "Installing fonts"
 sleep 3s
-yay -S ttf-dejavu noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-bitstream-vera ttf-liberation ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-jetbrains-mono ttf-inconsolata otf-crimson ttf-carlito ttf-ms-fonts otf-takao
+yay -S adobe-source-code-pro-fonts ttf-carlito ttf-dejavu ttf-droid ttf-jetbrains-mono ttf-liberation noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-ms-fonts
 echo "Installing gtk stuff"
 sleep 3s
-## yay -S gtk-engine-murrine gtk-engines materia-gtk-theme
 yay -S materia-gtk-theme papirus-icon-theme 
 echo "Installing other tools"
 sleep 3s
@@ -54,15 +53,8 @@ sleep 3s
 yay -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
 echo "Installing more apps"
 sleep 3s
-## yay -S chezmoi transmission-qt obs-studio audacity pdfarranger bleachbit gimp inkscape minder shotcut clipgrab handbrake gummi netbeans zoom
 yay -S chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut clipgrab handbrake
-echo "Installing KDE apps"
-sleep 3s
-## yay -S spectacle gwenview okular packagekit-qt5 kdenlive krita elisa kdeconnect arc-kde materia-kde
 echo "Installing even more apps"
 sleep 3s
 yay -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
-echo "Installing some apps"
-sleep 3s
-## yay -S qogir-gtk-theme qogir-kde-theme-git qogir-icon-theme tela-icon-theme
 echo "OK! :))"
