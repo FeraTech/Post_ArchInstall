@@ -53,7 +53,7 @@ sleep 3s
 yay --needed -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
 echo "Installing more apps"
 sleep 3s
-yay --needed -S chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut clipgrab handbrake
+yay --needed -S chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut yt-dlp handbrake
 echo "Installing even more apps"
 sleep 3s
 yay --needed -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
