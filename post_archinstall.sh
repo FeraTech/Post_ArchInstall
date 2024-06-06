@@ -28,7 +28,7 @@ sleep 3s
 yay --needed -S adobe-source-code-pro-fonts ttf-carlito ttf-dejavu ttf-droid ttf-jetbrains-mono ttf-liberation noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-ms-fonts otf-takao
 echo "Installing gtk stuff"
 sleep 3s
-yay --needed -S materia-gtk-theme papirus-icon-theme
+yay --needed -S gnome-themes-extra papirus-icon-theme
 echo "Installing other tools"
 sleep 3s
 yay --needed -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim wl-clipboard wget man perl-rename gufw
