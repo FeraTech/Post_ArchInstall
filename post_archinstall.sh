@@ -28,10 +28,10 @@ sleep 3s
 yay --needed -S adobe-source-code-pro-fonts ttf-carlito ttf-dejavu ttf-droid ttf-jetbrains-mono ttf-liberation noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-ms-fonts otf-takao
 echo "Installing gtk stuff"
 sleep 3s
-yay --needed -S gnome-themes-extra papirus-icon-theme
+yay --needed -S papirus-icon-theme materia-gtk-theme gnome-themes-extra gtk-engine-murrine
 echo "Installing other tools"
 sleep 3s
-yay --needed -S neofetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim wl-clipboard wget man perl-rename gufw
+yay --needed -S fastfetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim wl-clipboard wget man perl-rename gufw
 sudo ufw enable
 echo "Installing AUR tools"
 sleep 3s
@@ -59,5 +59,5 @@ sleep 3s
 yay --needed -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
 echo "Installing Sway stuff"
 sleep 3s
-yay -S sway swaybg swayidle swaylock imv wf-recorder wl-clipboard alacritty waybar otf-font-awesome wofi brightnessctl pavucontrol xdg-desktop-portal-wlr nwg-look
+yay --needed -S sway swaybg swayidle swaylock imv wf-recorder wl-clipboard alacritty waybar otf-font-awesome wofi brightnessctl pavucontrol xdg-desktop-portal-wlr nwg-look
 echo "OK! :))"
