@@ -25,20 +25,20 @@ sleep 3s
 yay --needed -S dialog mtools dosfstools ntfs-3g xdg-user-dirs bash-completion rsync reflector gvfs gvfs-mtp
 echo "Installing fonts"
 sleep 3s
-yay --needed -S adobe-source-code-pro-fonts ttf-carlito ttf-dejavu ttf-droid ttf-jetbrains-mono ttf-liberation noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-ms-fonts otf-takao
+yay --needed -S adobe-source-code-pro-fonts ttf-carlito ttf-dejavu ttf-droid ttf-jetbrains-mono ttf-liberation noto-fonts noto-fonts-emoji ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family ttf-ms-fonts otf-takao
 echo "Installing gtk stuff"
 sleep 3s
 yay --needed -S papirus-icon-theme materia-gtk-theme gnome-themes-extra gtk-engine-murrine
 echo "Installing other tools"
 sleep 3s
-yay --needed -S fastfetch htop btop figlet cmatrix tree asciiquarium unrar zip unzip p7zip neovim wl-clipboard wget man perl-rename gufw
+yay --needed -S fastfetch htop btop fortune-mod figlet cowsay tealdeer cmatrix tree asciiquarium unrar zip unzip 7zip wl-clipboard wget man perl-rename gufw
 sudo ufw enable
 echo "Installing AUR tools"
 sleep 3s
-yay --needed -S pfetch inxi libva-utils
+yay --needed -S inxi libva-utils
 echo "Installing multimedia stuff"
 sleep 3s
-yay --needed -S vlc gstreamer gstreamer-vaapi gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly intel-gpu-tools
+yay --needed -S mpv gstreamer gstreamer-vaapi gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly intel-gpu-tools
 echo "Installing pipewire and audio stuff"
 sleep 3s
 yay --needed -S pipewire gst-plugin-pipewire pipewire-v4l2 pipewire-x11-bell pipewire-zeroconf realtime-privileges
@@ -53,7 +53,7 @@ sleep 3s
 yay --needed -S gparted jfsutils f2fs-tools exfatprogs reiserfsprogs udftools nilfs-utils gpart gnome-disk-utility
 echo "Installing more apps"
 sleep 3s
-yay --needed -S chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut yt-dlp handbrake
+yay --needed -S zathura zathura-pdf-poppler chezmoi obs-studio audacity bleachbit gimp inkscape minder shotcut yt-dlp handbrake
 echo "Installing even more apps"
 sleep 3s
 yay --needed -S code retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-core-info libretro-overlays libretro-shaders-slang spotify ardour
